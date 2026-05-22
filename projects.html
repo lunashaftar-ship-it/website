@@ -1,1 +1,63 @@
 
+<html>
+<head>
+    <title>Projects - Luna Shaftar</title>
+    <meta name="description" content="Discover my projects, where I blend creativity and technology to bring ideas to life. From innovative software solutions to impactful initiatives, explore the work that defines my journey in the world of technology and innovation.">
+       <script src="https://cdn.tailwindcss.com"></script>
+       <style>
+        /* Custom Premium Fonts */
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Great+Vibes&display=swap');
+
+        /* 🌊 The Luxury Flow Engine */
+        .reveal-on-scroll {
+            opacity: 0;
+            transform: translateY(40px);
+            filter: blur(8px);
+            /* Ultra-slow easing curves for a cinematic feel */
+            transition: opacity 1.8s cubic-bezier(0.16, 1, 0.3, 1), 
+                        transform 1.8s cubic-bezier(0.16, 1, 0.3, 1), 
+                        filter 1.8s cubic-bezier(0.16, 1, 0.3, 1);
+            will-change: opacity, transform, filter;
+        }
+
+        /* Revealed state */
+        .reveal-on-scroll.active {
+            opacity: 1;
+            transform: translateY(0);
+            filter: blur(0);
+        }
+
+        /* Delays for cascading flow effects */
+        .delay-100 { transition-delay: 150ms; }
+        .delay-200 { transition-delay: 300ms; }
+        .delay-300 { transition-delay: 450ms; }
+        .delay-400 { transition-delay: 600ms; }
+        
+        /* Subtle continuous parallax drift for the hero image background */
+        @keyframes subtleDrift {
+            0% { background-position: center 0%; }
+            50% { background-position: center 8%; }
+            100% { background-position: center 0%; }
+        }
+        .hero-drift {
+            animation: subtleDrift 25s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+        }
+        #hero-title {
+            font-family: 'Dancing Script';
+        }
+    </style>
+</head>
+      
+<body class="bg-[#111111] overflow-x-hidden antialiased">
+    <header class="bg-[#1A1A1A] py-6">
+        <div class="container mx-auto px-4">
+            <h1 class="text-3xl font-bold">Projects</h1>
+        </div>
+    </header>
+    <main class="flex-grow container mx-auto px-4 py-8">
+        <p class="text-lg mb-6">    
+
+        </body>
+
+
+</html>
